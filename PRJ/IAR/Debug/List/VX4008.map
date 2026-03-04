@@ -1,0 +1,1140 @@
+###############################################################################
+#
+# IAR ELF Linker V9.40.1.364/W64 for ARM                  02/Mar/2026  15:19:43
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out
+#    Map file     =
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\List\VX4008.map
+#    Command line =
+#        -f
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out.rsp
+#        (C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir\common.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir\diagnose.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\ServiceHandling_2804549100268208288.dir\HModbusOptimize.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\ServiceHandling_2804549100268208288.dir\Iocontrol.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Init_3131268604989098105.dir\IoInit.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\APP_7154173064415748325.dir\main.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\ServiceHandling_2804549100268208288.dir\MasterCommunication.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Communication_16874736313679474480.dir\MbCommunication.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir\mbportevent.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir\mbportother.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir\mbportserial.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir\mbporttimer.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\MBslave_4893024693769728977.dir\mbs.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\rtu_3604552621576057552.dir\mbscrc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfunccoils.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfuncdiag.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfuncdisc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfuncfiles.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfuncholding.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsfuncinput.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\rtu_3604552621576057552.dir\mbsrtu.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir\mbsslaveid.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\common_17675366809245851706.dir\mbutils.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\RTT_15878225897604209808.dir\SEGGER_RTT.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\RTT_15878225897604209808.dir\SEGGER_RTT_printf.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Syscalls_3904317922390267577.dir\SEGGER_RTT_Syscalls_IAR.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\startup_11811877783318422109.dir\startup_stm32f30x.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\STM32DAC8555Driver.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\STM32F0IAPDriver.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\STM32F0SPIDrive.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\STM32F0usart.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\stm32f0xx_port_debug.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_adc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_can.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_comp.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_crc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_dac.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_dbgmcu.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_dma.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_exti.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_flash.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_gpio.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_i2c.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_iwdg.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_misc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_opamp.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_pwr.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_rcc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_rtc.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_spi.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_syscfg.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_tim.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_usart.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir\stm32f30x_wwdg.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir\STM32GPIODriver.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\CM0_11606972002192940675.dir\system_stm32f30x.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir\warn.o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir\watchdog.o
+#        --no_out_extension -o
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out
+#        --map
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\List\VX4008.map
+#        --config
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\..\..\BSP\ICF\stm32f30x_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M4 --fpu=VFPv4_sp) --dependencies=n
+#        C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"A18": place at address 0x800'c000 { ro section .IODeviceInfo };
+"A19": place at address 0x800'd000 { ro section .IOVersionInfo };
+"A20": place at address 0x800'da00 { ro section .gllaGainValue };
+"A21": place at address 0x800'e000 { ro section .STM32F0IAPUpgrade };
+"A22": place at address 0x800'e400 { object STM32F0IAPDriver.o section .text };
+"A23": place at address 0x800'fee0 { ro section .IAPAPBAHBPrescTable };
+"A24": place at address 0x800'ff00 { ro section .IOUpgradeInfo };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0400 to 0x2000'5fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .gllaForTemperatureModlue  in "A12"
+  ro section .gllaTableB                in "A10"
+  ro section .gllaTableC                in "A11"
+  ro section .gllaTableE                in "A6"
+  ro section .gllaTableHead             in "A1"
+  ro section .gllaTableJ                in "A4"
+  ro section .gllaTableK                in "A3"
+  ro section .gllaTableN                in "A7"
+  ro section .gllaTableNI120            in "A17"
+  ro section .gllaTablePT100            in "A16"
+  ro section .gllaTablePT1000           in "A13"
+  ro section .gllaTablePT200            in "A14"
+  ro section .gllaTablePT500            in "A15"
+  ro section .gllaTableR                in "A9"
+  ro section .gllaTableS                in "A8"
+  ro section .gllaTableT                in "A5"
+  ro section .gllaThermistor            in "A2"
+
+
+  Section               Kind         Address    Size  Object
+  -------               ----         -------    ----  ------
+"A0":                                          0x188
+  .intvec               ro code   0x800'0000   0x188  startup_stm32f30x.o [16]
+                                - 0x800'0188   0x188
+
+"P1", part 1 of 2:                            0x85f6
+  .text                 ro code   0x800'0188  0x1368  STM32DAC8555Driver.o [5]
+  .text                 ro code   0x800'14f0   0x278  stm32f30x_tim.o [10]
+  .text                 ro code   0x800'1768   0x204  STM32F0SPIDrive.o [5]
+  .text                 ro code   0x800'196c   0x4dc  stm32f30x_rcc.o [10]
+  .text                 ro code   0x800'1e48   0x132  stm32f30x_gpio.o [10]
+  .text                 ro code   0x800'1f7a    0x3a  packbits_init_single.o [19]
+  .text                 ro code   0x800'1fb4    0x22  S32ToDbl.o [18]
+  .text                 ro code   0x800'1fd8   0x246  DblDiv.o [18]
+  .text                 ro code   0x800'2220   0x24e  DblAddSub.o [18]
+  .text                 ro code   0x800'2470   0x1aa  DblMul.o [18]
+  .text                 ro code   0x800'261c    0x34  DblCmpGe.o [18]
+  .text                 ro code   0x800'2650    0x34  DblCmpLe.o [18]
+  .text                 ro code   0x800'2684    0x36  DblToS32.o [18]
+  .text                 ro code   0x800'26bc    0xde  stm32f30x_spi.o [10]
+  .text                 ro code   0x800'279c    0x66  ABImemset.o [19]
+  .text                 ro code   0x800'2804   0x48e  SEGGER_RTT_printf.o [8]
+  .text                 ro code   0x800'2c94   0x510  Iocontrol.o [9]
+  .text                 ro code   0x800'31a4   0x2dc  SEGGER_RTT.o [8]
+  .text                 ro code   0x800'3480    0x78  stm32f30x_misc.o [10]
+  .text                 ro code   0x800'34f8    0xa6  ABImemcpy.o [19]
+  .text                 ro code   0x800'35a0   0x274  I64DivMod.o [19]
+  .text                 ro code   0x800'3814     0x2  I64DivZer.o [19]
+  .text                 ro code   0x800'3818   0x9a4  MasterCommunication.o [9]
+  .text                 ro code   0x800'41bc    0x68  memcmp.o [19]
+  .text                 ro code   0x800'4224   0x922  STM32F0usart.o [5]
+  .text                 ro code   0x800'4b48   0x1a4  stm32f30x_dma.o [10]
+  .text                 ro code   0x800'4cec   0x2ba  stm32f30x_usart.o [10]
+  .text                 ro code   0x800'4fa8   0x780  IoInit.o [6]
+  .text                 ro code   0x800'5728    0x48  mbscrc.o [15]
+  .text                 ro code   0x800'5770   0x710  MbCommunication.o [4]
+  .text                 ro code   0x800'5e80    0xa8  STM32GPIODriver.o [5]
+  .text                 ro code   0x800'5f28   0x53e  mbs.o [7]
+  .text                 ro code   0x800'6468    0x30  watchdog.o [3]
+  .text                 ro code   0x800'6498    0x54  stm32f30x_syscfg.o [10]
+  .text                 ro code   0x800'64ec   0x100  mbportevent.o [14]
+  .text                 ro code   0x800'65ec    0x30  warn.o [3]
+  .text                 ro code   0x800'661c   0x608  mbsrtu.o [15]
+  .text                 ro code   0x800'6c24   0x418  mbportserial.o [14]
+  .text                 ro code   0x800'703c     0xc  mbporttimer.o [14]
+  .text                 ro code   0x800'7048   0x43c  mbsfuncfiles.o [13]
+  .text                 ro code   0x800'7484   0x276  mbsfuncholding.o [13]
+  .text                 ro code   0x800'76fc   0x20e  common.o [3]
+  .text                 ro code   0x800'790c   0x144  stm32f30x_flash.o [10]
+  .text                 ro code   0x800'7a50   0x20e  mbsfunccoils.o [13]
+  .text                 ro code   0x800'7c60   0x1c4  HModbusOptimize.o [9]
+  .text                 ro code   0x800'7e24   0x128  system_stm32f30x.o [2]
+  .rodata               const     0x800'7f4c   0x100  mbscrc.o [15]
+  .rodata               const     0x800'804c   0x100  mbscrc.o [15]
+  .text                 ro code   0x800'814c    0xa4  mbsfuncdisc.o [13]
+  .text                 ro code   0x800'81f0    0xa0  main.o [1]
+  .text                 ro code   0x800'8290    0x94  diagnose.o [3]
+  .text                 ro code   0x800'8324    0x88  mbsfuncinput.o [13]
+  .rodata               const     0x800'83ac    0x58  mbs.o [7]
+  .text                 ro code   0x800'8404    0x38  zero_init3.o [19]
+  .text                 ro code   0x800'843c    0x28  data_init.o [19]
+  .rodata               const     0x800'8464    0x24  MasterCommunication.o [9]
+  .text                 ro code   0x800'8488    0x22  fpinit_M.o [18]
+  .iar.init_table       const     0x800'84ac    0x28  - Linker created -
+  .text                 ro code   0x800'84d4    0x1e  cmain.o [19]
+  .text                 ro code   0x800'84f2     0x4  exit.o [17]
+  .text                 ro code   0x800'84f8     0xa  cexit.o [19]
+  .text                 ro code   0x800'8504    0x14  exit.o [20]
+  .text                 ro code   0x800'8518    0x1c  cstartup_M.o [19]
+  .rodata               const     0x800'8534    0x14  SEGGER_RTT.o [8]
+  .rodata               const     0x800'8548    0x10  SEGGER_RTT_printf.o [8]
+  .rodata               const     0x800'8558    0x10  STM32DAC8555Driver.o [5]
+  .rodata               const     0x800'8568    0x10  STM32DAC8555Driver.o [5]
+  .rodata               const     0x800'8578    0x10  STM32DAC8555Driver.o [5]
+  .rodata               const     0x800'8588    0x10  STM32DAC8555Driver.o [5]
+  .text                 ro code   0x800'8598    0x10  startup_stm32f30x.o [16]
+  .rodata               const     0x800'85a8     0xc  SEGGER_RTT.o [8]
+  .rodata               const     0x800'85b4     0x8  STM32DAC8555Driver.o [5]
+  .text                 ro code   0x800'85bc     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85c0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85c4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85c8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85cc     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85d0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85d4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85d8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85dc     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85e0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85e4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85e8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85ec     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85f0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85f4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85f8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'85fc     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8600     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8604     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8608     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'860c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8610     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8614     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8618     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'861c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8620     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8624     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8628     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'862c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8630     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8634     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8638     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'863c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8640     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8644     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8648     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'864c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8650     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8654     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8658     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'865c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8660     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8664     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8668     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'866c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8670     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8674     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8678     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'867c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8680     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8684     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8688     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'868c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8690     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8694     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'8698     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'869c     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86a0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86a4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86a8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86ac     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86b0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86b4     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86b8     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86bc     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86c0     0x4  startup_stm32f30x.o [16]
+  .text                 ro code   0x800'86c4     0x4  startup_stm32f30x.o [16]
+  Initializer bytes     const     0x800'86c8    0xb6  <for P2-1>
+                                - 0x800'877e  0x85f6
+
+"A18":                                        0x1000
+  .IODeviceInfo         const     0x800'c000  0x1000  MasterCommunication.o [9]
+                                - 0x800'd000  0x1000
+
+"A19":                                         0x400
+  .IOVersionInfo        const     0x800'd000   0x400  MasterCommunication.o [9]
+                                - 0x800'd400   0x400
+
+"P1", part 2 of 2:                               0x4
+  .text                 ro code   0x800'd400     0x4  low_level_init.o [17]
+  .rodata               const     0x800'd404     0x0  zero_init3.o [19]
+  .rodata               const     0x800'd404     0x0  packbits_init_single.o [19]
+                                - 0x800'd404     0x4
+
+"A20":                                          0x40
+  .gllaGainValue        const     0x800'da00    0x40  MasterCommunication.o [9]
+                                - 0x800'da40    0x40
+
+"A21":                                          0xa8
+  .STM32F0IAPUpgrade    ro code   0x800'e000    0xa8  STM32F0IAPDriver.o [5]
+                                - 0x800'e0a8    0xa8
+
+"A22":                                         0xa38
+  .text                 ro code   0x800'e400   0xa38  STM32F0IAPDriver.o [5]
+                                - 0x800'ee38   0xa38
+
+"A23":                                          0x10
+  .IAPAPBAHBPrescTable  const     0x800'fee0    0x10  STM32F0IAPDriver.o [5]
+                                - 0x800'fef0    0x10
+
+"A24":                                         0x100
+  .IOUpgradeInfo        const     0x800'ff00   0x100  MasterCommunication.o [9]
+                                - 0x801'0000   0x100
+
+Absolute sections:                             0x410
+  .bss                  zero     0x2000'0000   0x100  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'0100   0x100  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'0200   0x200  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'0400     0x4  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'0404     0x4  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'0408     0x4  STM32F0IAPDriver.o [5]
+  .bss                  zero     0x2000'040c     0x4  STM32F0IAPDriver.o [5]
+                               - 0x2000'0410   0x410
+
+"P2", part 1 of 3:                              0xd4
+  P2-1                           0x2000'0410    0xd4  <Init block>
+    .data               inited   0x2000'0410    0x6c  Iocontrol.o [9]
+    .data               inited   0x2000'047c    0x10  MbCommunication.o [4]
+    .data               inited   0x2000'048c    0x14  STM32DAC8555Driver.o [5]
+    .data               inited   0x2000'04a0    0x14  STM32DAC8555Driver.o [5]
+    .data               inited   0x2000'04b4    0x10  stm32f30x_rcc.o [10]
+    .data               inited   0x2000'04c4    0x1c  stm32f30x_rcc.o [10]
+    .data               inited   0x2000'04e0     0x1  HModbusOptimize.o [9]
+    .data               inited   0x2000'04e1     0x1  HModbusOptimize.o [9]
+    .data               inited   0x2000'04e2     0x1  IoInit.o [6]
+    .data               inited   0x2000'04e3     0x1  main.o [1]
+                               - 0x2000'04e4    0xd4
+
+"P2", part 2 of 3:                            0x1198
+  .bss                  zero     0x2000'04e4   0x400  MasterCommunication.o [9]
+  .bss                  zero     0x2000'08e4   0x400  SEGGER_RTT.o [8]
+  .bss                  zero     0x2000'0ce4   0x200  STM32F0usart.o [5]
+  .bss                  zero     0x2000'0ee4   0x114  mbsrtu.o [15]
+  .bss                  zero     0x2000'0ff8   0x104  STM32F0usart.o [5]
+  .bss                  zero     0x2000'10fc   0x100  MasterCommunication.o [9]
+  .bss                  zero     0x2000'11fc   0x100  STM32F0usart.o [5]
+  .bss                  zero     0x2000'12fc    0xc0  Iocontrol.o [9]
+  .bss                  zero     0x2000'13bc    0xa8  SEGGER_RTT.o [8]
+  .bss                  zero     0x2000'1464    0x48  MasterCommunication.o [9]
+  .bss                  zero     0x2000'14ac    0x40  mbs.o [7]
+  .bss                  zero     0x2000'14ec    0x30  mbportserial.o [14]
+  .bss                  zero     0x2000'151c    0x20  Iocontrol.o [9]
+  .bss                  zero     0x2000'153c    0x20  Iocontrol.o [9]
+  .bss                  zero     0x2000'155c    0x20  MbCommunication.o [4]
+  .bss                  zero     0x2000'157c    0x14  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1590    0x14  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'15a4    0x14  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'15b8    0x14  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'15cc    0x10  Iocontrol.o [9]
+  .bss                  zero     0x2000'15dc    0x10  SEGGER_RTT.o [8]
+  .bss                  zero     0x2000'15ec    0x10  STM32DAC8555Driver.o [5]
+  .bss                  zero     0x2000'15fc     0xc  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1608     0xc  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1614     0xc  STM32DAC8555Driver.o [5]
+  .bss                  zero     0x2000'1620     0xc  STM32DAC8555Driver.o [5]
+  .bss                  zero     0x2000'162c     0xc  STM32F0usart.o [5]
+  .bss                  zero     0x2000'1638     0x8  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1640     0x8  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1648     0x8  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'1650     0x8  Iocontrol.o [9]
+  .bss                  zero     0x2000'1658     0x4  common.o [3]
+  .bss                  zero     0x2000'165c     0x4  diagnose.o [3]
+  .bss                  zero     0x2000'1660     0x4  mbportevent.o [14]
+  .bss                  zero     0x2000'1664     0x4  STM32F0usart.o [5]
+  .bss                  zero     0x2000'1668     0x2  diagnose.o [3]
+  .bss                  zero     0x2000'166a     0x2  diagnose.o [3]
+  .bss                  zero     0x2000'166c     0x1  diagnose.o [3]
+  .bss                  zero     0x2000'166d     0x1  HModbusOptimize.o [9]
+  .bss                  zero     0x2000'166e     0x1  Iocontrol.o [9]
+  .bss                  zero     0x2000'166f     0x1  Iocontrol.o [9]
+  .bss                  zero     0x2000'1670     0x1  MasterCommunication.o [9]
+  .bss                  zero     0x2000'1671     0x1  MbCommunication.o [4]
+  .bss                  zero     0x2000'1672     0x1  mbportevent.o [14]
+  .bss                  zero     0x2000'1673     0x1  mbportserial.o [14]
+  .bss                  zero     0x2000'1674     0x1  mbs.o [7]
+  .bss                  zero     0x2000'1675     0x1  mbsrtu.o [15]
+  .bss                  zero     0x2000'1676     0x1  STM32DAC8555Driver.o [5]
+  .bss                  zero     0x2000'1677     0x1  STM32F0usart.o [5]
+  .bss                  zero     0x2000'1678     0x1  warn.o [3]
+  .bss                  zero     0x2000'1679     0x1  watchdog.o [3]
+                               - 0x2000'167a  0x1196
+
+"P2", part 3 of 3:                             0x400
+  CSTACK                         0x2000'1680   0x400  <Block>
+    CSTACK              uninit   0x2000'1680   0x400  <Block tail>
+                               - 0x2000'1a80   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'877e   0x800'bfff    0x3882
+   0x800'd404   0x800'd9ff     0x5fc
+   0x800'da40   0x800'dfff     0x5c0
+   0x800'e0a8   0x800'e3ff     0x358
+   0x800'ee38   0x800'fedf    0x10a8
+   0x800'fef0   0x800'feff      0x10
+   0x801'0000   0x801'ffff  0x1'0000
+  0x2000'167c  0x2000'167f       0x4
+  0x2000'1a80  0x2000'5fff    0x4580
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x15a6:
+          0x2000'0000   0x410
+          0x2000'04e4  0x1196
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xb6 (85% of destination):
+           0x800'86c8    0xb6
+    1 destination range, total size 0xd4:
+          0x2000'0410    0xd4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  rw data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------------
+    Total:
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\APP_7154173064415748325.dir: [1]
+    main.o                      160        1        1
+    ----------------------------------------------------------
+    Total:                      160        1        1
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\CM0_11606972002192940675.dir: [2]
+    system_stm32f30x.o          296
+    ----------------------------------------------------------
+    Total:                      296
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir: [3]
+    common.o                    526                 4
+    diagnose.o                  148                 9
+    warn.o                       48                 1
+    watchdog.o                   48                 1
+    ----------------------------------------------------------
+    Total:                      770                15
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Communication_16874736313679474480.dir: [4]
+    MbCommunication.o         1'808       14       49
+    ----------------------------------------------------------
+    Total:                    1'808       14       49
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir: [5]
+    STM32DAC8555Driver.o      4'968      106       81
+    STM32F0IAPDriver.o        2'784       16             1'040
+    STM32F0SPIDrive.o           516
+    STM32F0usart.o            2'338             1'045
+    STM32GPIODriver.o           168
+    ----------------------------------------------------------
+    Total:                   10'774      122    1'126    1'040
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Init_3131268604989098105.dir: [6]
+    IoInit.o                  1'920        1        1
+    ----------------------------------------------------------
+    Total:                    1'920        1        1
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\MBslave_4893024693769728977.dir: [7]
+    mbs.o                     1'342       88       65
+    ----------------------------------------------------------
+    Total:                    1'342       88       65
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\RTT_15878225897604209808.dir: [8]
+    SEGGER_RTT.o                732       32    1'208
+    SEGGER_RTT_printf.o       1'166       16
+    ----------------------------------------------------------
+    Total:                    1'898       48    1'208
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\ServiceHandling_2804549100268208288.dir: [9]
+    HModbusOptimize.o           452        2      131
+    Iocontrol.o               1'296       92      390
+    MasterCommunication.o     2'468    5'476    1'353
+    ----------------------------------------------------------
+    Total:                    4'216    5'570    1'874
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir: [10]
+    stm32f30x_dma.o             420
+    stm32f30x_flash.o           324
+    stm32f30x_gpio.o            306
+    stm32f30x_misc.o            120
+    stm32f30x_rcc.o           1'244       38       44
+    stm32f30x_spi.o             222
+    stm32f30x_syscfg.o           84
+    stm32f30x_tim.o             632
+    stm32f30x_usart.o           698
+    ----------------------------------------------------------
+    Total:                    4'050       38       44
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Syscalls_3904317922390267577.dir: [11]
+    ----------------------------------------------------------
+    Total:
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\common_17675366809245851706.dir: [12]
+    ----------------------------------------------------------
+    Total:
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir: [13]
+    mbsfunccoils.o              526
+    mbsfuncdisc.o               164
+    mbsfuncfiles.o            1'084
+    mbsfuncholding.o            630
+    mbsfuncinput.o              136
+    ----------------------------------------------------------
+    Total:                    2'540
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir: [14]
+    mbportevent.o               256                 5
+    mbportserial.o            1'048                49
+    mbporttimer.o                12
+    ----------------------------------------------------------
+    Total:                    1'316                54
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\rtu_3604552621576057552.dir: [15]
+    mbscrc.o                     72      512
+    mbsrtu.o                  1'544               277
+    ----------------------------------------------------------
+    Total:                    1'616      512      277
+
+C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\startup_11811877783318422109.dir: [16]
+    startup_stm32f30x.o         676
+    ----------------------------------------------------------
+    Total:                      676
+
+dl7M_tln.a: [17]
+    exit.o                        4
+    low_level_init.o              4
+    ----------------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [18]
+    DblAddSub.o                 590
+    DblCmpGe.o                   52
+    DblCmpLe.o                   52
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToS32.o                   54
+    S32ToDbl.o                   34
+    fpinit_M.o                   34
+    ----------------------------------------------------------
+    Total:                    1'824
+
+rt7M_tl.a: [19]
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    I64DivMod.o                 628
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memcmp.o                    104
+    packbits_init_single.o       58
+    zero_init3.o                 56
+    ----------------------------------------------------------
+    Total:                    1'224
+
+shb_l.a: [20]
+    exit.o                       20
+    ----------------------------------------------------------
+    Total:                       20
+
+    Gaps                         36        2
+    Linker created                        40    1'024
+--------------------------------------------------------------
+    Grand Total:             36'494    6'436    5'738    1'040
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'84ac           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'84d4           --   Gb  - Linker created -
+?main                    0x800'84d5          Code  Gb  cmain.o [19]
+AD5575_st               0x2000'048c    0x14  Data  Gb  STM32DAC8555Driver.o [5]
+AD5575_st2              0x2000'04a0    0x14  Data  Gb  STM32DAC8555Driver.o [5]
+AD5755_CheckCrc          0x800'0ed9    0x48  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_GPIO_CONFIG       0x800'01c9    0xcc  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_GetRegisterValue
+                         0x800'0fbd    0xfe  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_GetRegisterValue2
+                         0x800'10c5    0xfe  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_Init              0x800'0295   0x174  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_PEC_ENABLE        0x800'0fad    0x10  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_ParseStatusRegister
+                         0x800'11d5   0x14a  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_ParseStatusRegister2
+                         0x800'1335   0x14c  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_SPI1_Init         0x800'1769   0x12a  Code  Gb  STM32F0SPIDrive.o [5]
+AD5755_SetControlRegisters
+                         0x800'0f65    0x24  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_SetControlRegisters2
+                         0x800'0f89    0x24  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_SetRegisterValue
+                         0x800'0d9d    0x96  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_SetRegisterValue2
+                         0x800'0e3d    0x96  Code  Gb  STM32DAC8555Driver.o [5]
+AD5755_Software_Reset    0x800'0f49    0x1c  Code  Gb  STM32DAC8555Driver.o [5]
+ADC1GetVolTmpDiagnosisData
+                         0x800'8291     0x2  Code  Gb  diagnose.o [3]
+ADC1_2_IRQHandler        0x800'861d          Code  Wk  startup_stm32f30x.o [16]
+ADC3_IRQHandler          0x800'8685          Code  Wk  startup_stm32f30x.o [16]
+ADC4_IRQHandler          0x800'86a9          Code  Wk  startup_stm32f30x.o [16]
+ADCPrescTable           0x2000'04c4    0x1c  Data  Lc  stm32f30x_rcc.o [10]
+AIAOIndictorGPIOInit     0x800'2fb9   0x1b6  Code  Gb  Iocontrol.o [9]
+AIAOSetIndictor          0x800'2f27    0x92  Code  Gb  Iocontrol.o [9]
+AISampleType            0x2000'15cc    0x10  Data  Gb  Iocontrol.o [9]
+APBAHBPrescTable        0x2000'04b4    0x10  Data  Lc  stm32f30x_rcc.o [10]
+AssemblyIoBaseInfo       0x800'3c87    0x62  Code  Gb  MasterCommunication.o [9]
+BusFault_Handler         0x800'85c5          Code  Wk  startup_stm32f30x.o [16]
+CAN1_RX1_IRQHandler      0x800'8629          Code  Wk  startup_stm32f30x.o [16]
+CAN1_SCE_IRQHandler      0x800'862d          Code  Wk  startup_stm32f30x.o [16]
+COMP1_2_3_IRQHandler     0x800'86ad          Code  Wk  startup_stm32f30x.o [16]
+COMP4_5_6_IRQHandler     0x800'86b1          Code  Wk  startup_stm32f30x.o [16]
+COMP7_IRQHandler         0x800'86b5          Code  Wk  startup_stm32f30x.o [16]
+CSTACK$$Base            0x2000'1680           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1a80           --   Gb  - Linker created -
+CalculateStartAddr       0x800'5dd5    0x54  Code  Gb  MbCommunication.o [4]
+ChipTempDiagnoseAndwarn
+                         0x800'8293    0x3a  Code  Gb  diagnose.o [3]
+ConfigSlaveStation       0x800'3a69    0xe0  Code  Gb  MasterCommunication.o [9]
+CurrentLinearCompensate
+                         0x800'040d   0x1fe  Code  Gb  STM32DAC8555Driver.o [5]
+CurrentLinearCompensate_mA
+                         0x800'061d   0x1e8  Code  Gb  STM32DAC8555Driver.o [5]
+DMA1_Channel1_IRQHandler
+                         0x800'8609          Code  Wk  startup_stm32f30x.o [16]
+DMA1_Channel2_IRQHandler
+                         0x800'860d          Code  Wk  startup_stm32f30x.o [16]
+DMA1_Channel3_IRQHandler
+                         0x800'8611          Code  Wk  startup_stm32f30x.o [16]
+DMA1_Channel4_IRQHandler
+                         0x800'8615          Code  Wk  startup_stm32f30x.o [16]
+DMA1_Channel5_IRQHandler
+                         0x800'8619          Code  Wk  startup_stm32f30x.o [16]
+DMA1_Channel6_IRQHandler
+                         0x800'464d     0x2  Code  Gb  STM32F0usart.o [5]
+DMA1_Channel7_IRQHandler
+                         0x800'464f     0x2  Code  Gb  STM32F0usart.o [5]
+DMA2_Channel1_IRQHandler
+                         0x800'8695          Code  Wk  startup_stm32f30x.o [16]
+DMA2_Channel2_IRQHandler
+                         0x800'8699          Code  Wk  startup_stm32f30x.o [16]
+DMA2_Channel3_IRQHandler
+                         0x800'869d          Code  Wk  startup_stm32f30x.o [16]
+DMA2_Channel4_IRQHandler
+                         0x800'86a1          Code  Wk  startup_stm32f30x.o [16]
+DMA2_Channel5_IRQHandler
+                         0x800'86a5          Code  Wk  startup_stm32f30x.o [16]
+DMA_ClearFlag            0x800'4ca3    0x10  Code  Gb  stm32f30x_dma.o [10]
+DMA_Cmd                  0x800'4c77    0x1e  Code  Gb  stm32f30x_dma.o [10]
+DMA_DeInit               0x800'4b49    0xf2  Code  Gb  stm32f30x_dma.o [10]
+DMA_GetCurrDataCounter   0x800'4c9d     0x6  Code  Gb  stm32f30x_dma.o [10]
+DMA_Init                 0x800'4c3b    0x3c  Code  Gb  stm32f30x_dma.o [10]
+DMA_SetCurrDataCounter   0x800'4c95     0x8  Code  Gb  stm32f30x_dma.o [10]
+DebugMon_Handler         0x800'85d1          Code  Wk  startup_stm32f30x.o [16]
+DeviceInfoAndRegisterIdMap
+                        0x2000'047c    0x10  Data  Gb  MbCommunication.o [4]
+DiagnoseIoDataInfo       0x800'3b49    0xc8  Code  Gb  MasterCommunication.o [9]
+DiagnoseIoDeviceBaseInfo
+                         0x800'3907   0x162  Code  Gb  MasterCommunication.o [9]
+DisConnectWithGWTimerInit
+                         0x800'2e3d    0x8a  Code  Gb  Iocontrol.o [9]
+EXTI0_IRQHandler         0x800'85f5          Code  Wk  startup_stm32f30x.o [16]
+EXTI15_10_IRQHandler     0x800'8669          Code  Wk  startup_stm32f30x.o [16]
+EXTI1_IRQHandler         0x800'85f9          Code  Wk  startup_stm32f30x.o [16]
+EXTI2_TS_IRQHandler      0x800'85fd          Code  Wk  startup_stm32f30x.o [16]
+EXTI3_IRQHandler         0x800'8601          Code  Wk  startup_stm32f30x.o [16]
+EXTI4_IRQHandler         0x800'8605          Code  Wk  startup_stm32f30x.o [16]
+EXTI9_5_IRQHandler       0x800'8631          Code  Wk  startup_stm32f30x.o [16]
+Errorflags              0x2000'1620     0xc  Data  Gb  STM32DAC8555Driver.o [5]
+FLASH_ErasePage          0x800'7929    0x4a  Code  Gb  stm32f30x_flash.o [10]
+FLASH_GetStatus          0x800'79df    0x28  Code  Gb  stm32f30x_flash.o [10]
+FLASH_IRQHandler         0x800'85ed          Code  Wk  startup_stm32f30x.o [16]
+FLASH_ProgramWord        0x800'7973    0x6c  Code  Gb  stm32f30x_flash.o [10]
+FLASH_Unlock             0x800'790d    0x1c  Code  Gb  stm32f30x_flash.o [10]
+FLASH_WaitForLastOperation
+                         0x800'7a21    0x30  Code  Gb  stm32f30x_flash.o [10]
+FLASH_Write              0x800'77fd   0x10e  Code  Lc  common.o [3]
+FPU_IRQHandler           0x800'86c5          Code  Wk  startup_stm32f30x.o [16]
+FeedTheWatchDog          0x800'6469    0x2a  Code  Gb  watchdog.o [3]
+FeedTheWatchDog::ucWDMainCount
+                        0x2000'1679     0x1  Data  Lc  watchdog.o [3]
+GPIO_Init                0x800'1e49    0xa4  Code  Gb  stm32f30x_gpio.o [10]
+GPIO_PinAFConfig         0x800'1f21    0x5a  Code  Gb  stm32f30x_gpio.o [10]
+GPIO_ReadInputDataBit    0x800'1eed    0x14  Code  Gb  stm32f30x_gpio.o [10]
+GPIO_ResetBits           0x800'1f09     0x4  Code  Gb  stm32f30x_gpio.o [10]
+GPIO_SetBits             0x800'1f01     0x8  Code  Gb  stm32f30x_gpio.o [10]
+GPIO_WriteBit            0x800'1f0d    0x14  Code  Gb  stm32f30x_gpio.o [10]
+GetBaseInfoContent       0x800'3ce9    0xb2  Code  Lc  MasterCommunication.o [9]
+GetDeviceConfigInfoRange
+                         0x800'3d9b    0xac  Code  Lc  MasterCommunication.o [9]
+GetDeviceDataLength      0x800'4053    0x6a  Code  Lc  MasterCommunication.o [9]
+GetIoDataErrorValue      0x800'400b    0x48  Code  Lc  MasterCommunication.o [9]
+GetIoDeviceContentInfo   0x800'3819    0xee  Code  Gb  MasterCommunication.o [9]
+GetVariousStartAddr      0x800'5d23    0x70  Code  Gb  MbCommunication.o [4]
+Get_WarnStatus           0x800'65ed    0x2a  Code  Gb  warn.o [3]
+HandleAnalogData         0x800'5861   0x1ee  Code  Gb  MbCommunication.o [4]
+HandleDigitalData        0x800'578d    0xd4  Code  Gb  MbCommunication.o [4]
+HandleIoData             0x800'2d91    0xa8  Code  Gb  Iocontrol.o [9]
+HandleReadFileRecord     0x800'5a4f   0x1a2  Code  Gb  MbCommunication.o [4]
+HandleWriteFileRecord    0x800'5bf1   0x132  Code  Gb  MbCommunication.o [4]
+HardFault_Handler        0x800'76fd    0xe8  Code  Gb  common.o [3]
+I2C1_ER_IRQHandler       0x800'864d          Code  Wk  startup_stm32f30x.o [16]
+I2C1_EV_IRQHandler       0x800'8649          Code  Wk  startup_stm32f30x.o [16]
+I2C2_ER_IRQHandler       0x800'8655          Code  Wk  startup_stm32f30x.o [16]
+I2C2_EV_IRQHandler       0x800'8651          Code  Wk  startup_stm32f30x.o [16]
+IAPAPBAHBPrescTable      0x800'fee0    0x10  Data  Gb  STM32F0IAPDriver.o [5]
+IAPFeedTheWatchDog       0x800'e49d    0x2c  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_FLASH_ErasePage      0x800'e5fd    0x4a  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_FLASH_GetStatus      0x800'e5a3    0x2a  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_FLASH_ProgramWord    0x800'e647    0x6c  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_FLASH_Unlock         0x800'e587    0x1c  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_FLASH_WaitForLastOperation
+                         0x800'e5cd    0x30  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_GPIO_ResetBits       0x800'e499     0x4  Code  Lc  STM32F0IAPDriver.o [5]
+IAP_GPIO_SetBits         0x800'e491     0x8  Code  Lc  STM32F0IAPDriver.o [5]
+IODiagnose               0x800'8319     0xc  Code  Gb  diagnose.o [3]
+IOLinkEventInfo         0x2000'15ec    0x10  Data  Gb  STM32DAC8555Driver.o [5]
+InitConfigDataField      0x800'2e39     0x4  Code  Gb  Iocontrol.o [9]
+IoInit                   0x800'4fa9   0x444  Code  Gb  IoInit.o [6]
+IoSystemInit             0x800'5557     0x8  Code  Lc  IoInit.o [6]
+MCU_POWERVOLTAGE_DIAGNOSE
+                         0x800'82cd    0x38  Code  Gb  diagnose.o [3]
+MemManage_Handler        0x800'85c1          Code  Wk  startup_stm32f30x.o [16]
+NMI_Handler              0x800'85bd          Code  Wk  startup_stm32f30x.o [16]
+NVIC_Init                0x800'3481    0x66  Code  Gb  stm32f30x_misc.o [10]
+NVIC_InitStructure      0x2000'1664     0x4  Data  Gb  STM32F0usart.o [5]
+NVIC_SystemReset         0x800'5771    0x1c  Code  Lc  MbCommunication.o [4]
+OS_CPU_PendSVHandler     0x800'85d5          Code  Wk  startup_stm32f30x.o [16]
+OS_CPU_SysTickHandler    0x800'85d9          Code  Wk  startup_stm32f30x.o [16]
+PVD_IRQHandler           0x800'85e1          Code  Wk  startup_stm32f30x.o [16]
+PacketAndSendResponse    0x800'53ed    0x6c  Code  Gb  IoInit.o [6]
+QueryStartInit           0x800'5459    0xa6  Code  Lc  IoInit.o [6]
+RCC_AHBPeriphClockCmd    0x800'1d87    0x1c  Code  Gb  stm32f30x_rcc.o [10]
+RCC_APB1PeriphClockCmd   0x800'1dbf    0x1c  Code  Gb  stm32f30x_rcc.o [10]
+RCC_APB1PeriphResetCmd   0x800'1df7    0x1c  Code  Gb  stm32f30x_rcc.o [10]
+RCC_APB2PeriphClockCmd   0x800'1da3    0x1c  Code  Gb  stm32f30x_rcc.o [10]
+RCC_APB2PeriphResetCmd   0x800'1ddb    0x1c  Code  Gb  stm32f30x_rcc.o [10]
+RCC_GetClocksFreq        0x800'196d   0x3ba  Code  Gb  stm32f30x_rcc.o [10]
+RCC_IRQHandler           0x800'85f1          Code  Wk  startup_stm32f30x.o [16]
+RCC_USARTCLKConfig       0x800'1d27    0x60  Code  Gb  stm32f30x_rcc.o [10]
+RTC_Alarm_IRQHandler     0x800'866d          Code  Wk  startup_stm32f30x.o [16]
+RTC_WKUP_IRQHandler      0x800'85e9          Code  Wk  startup_stm32f30x.o [16]
+RTUFrameReceive          0x800'6bf7    0x2e  Code  Gb  mbsrtu.o [15]
+RangeSwitchingFlagBit   0x2000'1670     0x1  Data  Gb  MasterCommunication.o [9]
+Rangeflags              0x2000'1614     0xc  Data  Gb  STM32DAC8555Driver.o [5]
+ReadDataFromFlash        0x800'555f   0x164  Code  Lc  IoInit.o [6]
+ReadFileRecordAndJudgeFileRecordType
+                         0x800'5e29    0x58  Code  Gb  MbCommunication.o [4]
+ReadFlashIoDeviceInfo    0x800'40bd    0xb6  Code  Lc  MasterCommunication.o [9]
+ReadFlashProductInfo     0x800'3c11    0x76  Code  Gb  MasterCommunication.o [9]
+Region$$Table$$Base      0x800'84ac           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'84d4           --   Gb  - Linker created -
+Reset_Handler            0x800'8599          Code  Wk  startup_stm32f30x.o [16]
+SEGGER_RTT_ConfigUpBuffer
+                         0x800'33f5    0x6c  Code  Gb  SEGGER_RTT.o [8]
+SEGGER_RTT_Init          0x800'3463     0x8  Code  Gb  SEGGER_RTT.o [8]
+SEGGER_RTT_Write         0x800'33c5    0x30  Code  Gb  SEGGER_RTT.o [8]
+SEGGER_RTT_WriteNoLock   0x800'3343    0x82  Code  Gb  SEGGER_RTT.o [8]
+SEGGER_RTT_printf        0x800'2c77    0x1c  Code  Gb  SEGGER_RTT_printf.o [8]
+SEGGER_RTT_vprintf       0x800'2a01   0x276  Code  Gb  SEGGER_RTT_printf.o [8]
+SPI1_IRQHandler          0x800'8659          Code  Wk  startup_stm32f30x.o [16]
+SPI2_IRQHandler          0x800'865d          Code  Wk  startup_stm32f30x.o [16]
+SPI3_IRQHandler          0x800'8689          Code  Wk  startup_stm32f30x.o [16]
+SPI_Cmd                  0x800'2741    0x1e  Code  Gb  stm32f30x_spi.o [10]
+SPI_I2S_GetFlagStatus    0x800'2787    0x14  Code  Gb  stm32f30x_spi.o [10]
+SPI_Init                 0x800'26bd    0x84  Code  Gb  stm32f30x_spi.o [10]
+SPI_Read                 0x800'18f9    0x6c  Code  Gb  STM32F0SPIDrive.o [5]
+SPI_ReceiveData8         0x800'277b     0xc  Code  Gb  stm32f30x_spi.o [10]
+SPI_RxFIFOThresholdConfig
+                         0x800'275f    0x12  Code  Gb  stm32f30x_spi.o [10]
+SPI_SendData8            0x800'2771     0xa  Code  Gb  stm32f30x_spi.o [10]
+SPI_Write                0x800'1893    0x66  Code  Gb  STM32F0SPIDrive.o [5]
+STM32AD5755SendData      0x800'083d   0x4f8  Code  Gb  STM32DAC8555Driver.o [5]
+STM32AddressRecognition
+                         0x800'5e81    0x64  Code  Gb  STM32GPIODriver.o [5]
+STM32DAC5755DriverInit   0x800'01b1    0x18  Code  Gb  STM32DAC8555Driver.o [5]
+STM32F0ContentIndicateResponse
+                         0x800'eb77    0x5e  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPCompleteIndicateResponse
+                         0x800'ed99    0x44  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPMemcpy         0x800'e6d5    0x1a  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPMemset         0x800'e6b3    0x22  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPRAMToFlash     0x800'ebd5    0x9e  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPReceive        0x800'e4c9    0x3a  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPSend           0x800'e503    0x84  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0IAPUpgrade        0x800'e001    0xa8  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0Reset             0x800'ed89    0x10  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0TypeIndicateResponse
+                         0x800'e9d7    0x5a  Code  Lc  STM32F0IAPDriver.o [5]
+STM32F0UDMASendComplete
+                         0x800'4651    0x58  Code  Gb  STM32F0usart.o [5]
+STM32F0USART1DriverInstallIntCallBack
+                         0x800'4a71     0xc  Code  Lc  STM32F0usart.o [5]
+STM32F0USARTDriverClose
+                         0x800'475d    0x32  Code  Gb  STM32F0usart.o [5]
+STM32F0USARTDriverConfig
+                         0x800'4225   0x18e  Code  Gb  STM32F0usart.o [5]
+STM32F0USARTDriverISRCB2
+                         0x800'5555     0x2  Code  Gb  IoInit.o [6]
+STM32F0USARTDriverInit   0x800'43b3   0x1d4  Code  Gb  STM32F0usart.o [5]
+STM32F0USARTDriverReceive
+                         0x800'46a9    0x64  Code  Gb  STM32F0usart.o [5]
+STM32F0USARTDriverReceivePointer
+                         0x800'470d    0x50  Code  Gb  STM32F0usart.o [5]
+STM32F0USARTDriverSend   0x800'4587    0xc6  Code  Gb  STM32F0usart.o [5]
+STM32FOIAPComplete       0x800'ecf9    0x90  Code  Lc  STM32F0IAPDriver.o [5]
+STM32FOIAPContent        0x800'ea31   0x146  Code  Lc  STM32F0IAPDriver.o [5]
+STM32FOIAPTypeIndicate   0x800'e6ef   0x2e8  Code  Lc  STM32F0IAPDriver.o [5]
+STM32GPIOInputOutputSwitch
+                         0x800'5ee5    0x44  Code  Gb  STM32GPIODriver.o [5]
+STM32IAPContentFrameCheck
+                         0x800'ec73    0x86  Code  Lc  STM32F0IAPDriver.o [5]
+SVC_Handler              0x800'85cd          Code  Wk  startup_stm32f30x.o [16]
+SYSCFG_DeInit            0x800'6499    0x38  Code  Gb  stm32f30x_syscfg.o [10]
+ServiceDataFramePackage
+                         0x800'7c61   0x194  Code  Gb  HModbusOptimize.o [9]
+SetConfigDefaultValue    0x800'4173    0x24  Code  Gb  MasterCommunication.o [9]
+SetConfigValue           0x800'3e47   0x1c4  Code  Lc  MasterCommunication.o [9]
+SetStationNumer          0x800'54ff    0x54  Code  Lc  IoInit.o [6]
+SetSysClock              0x800'7e85    0x9a  Code  Lc  system_stm32f30x.o [2]
+SystemInit               0x800'7e25    0x60  Code  Gb  system_stm32f30x.o [2]
+TAMPER_STAMP_IRQHandler
+                         0x800'85e5          Code  Wk  startup_stm32f30x.o [16]
+TIM1_BRK_TIM15_IRQHandler
+                         0x800'8635          Code  Wk  startup_stm32f30x.o [16]
+TIM1_CC_IRQHandler       0x800'8641          Code  Wk  startup_stm32f30x.o [16]
+TIM1_TRG_COM_TIM17_IRQHandler
+                         0x800'863d          Code  Wk  startup_stm32f30x.o [16]
+TIM1_UP_TIM16_IRQHandler
+                         0x800'8639          Code  Wk  startup_stm32f30x.o [16]
+TIM2_IRQHandler          0x800'0d35    0x52  Code  Gb  STM32DAC8555Driver.o [5]
+TIM3_IRQHandler          0x800'2ec7    0x60  Code  Gb  Iocontrol.o [9]
+TIM4_IRQHandler          0x800'8645          Code  Wk  startup_stm32f30x.o [16]
+TIM6_Config              0x800'2c95    0x62  Code  Gb  Iocontrol.o [9]
+TIM6_DAC_IRQHandler      0x800'2cf7    0x64  Code  Gb  Iocontrol.o [9]
+TIM7_IRQHandler          0x800'0189    0x28  Code  Gb  STM32DAC8555Driver.o [5]
+TIM8_BRK_IRQHandler      0x800'8675          Code  Wk  startup_stm32f30x.o [16]
+TIM8_CC_IRQHandler       0x800'8681          Code  Wk  startup_stm32f30x.o [16]
+TIM8_TRG_COM_IRQHandler
+                         0x800'867d          Code  Wk  startup_stm32f30x.o [16]
+TIM8_UP_IRQHandler       0x800'8679          Code  Wk  startup_stm32f30x.o [16]
+TIM_ClearITPendingBit    0x800'1743     0x8  Code  Gb  stm32f30x_tim.o [10]
+TIM_Cmd                  0x800'16b5    0x1e  Code  Gb  stm32f30x_tim.o [10]
+TIM_DeInit               0x800'14f1   0x11a  Code  Gb  stm32f30x_tim.o [10]
+TIM_GetITStatus          0x800'1715    0x2e  Code  Gb  stm32f30x_tim.o [10]
+TIM_ITConfig             0x800'16f1    0x24  Code  Gb  stm32f30x_tim.o [10]
+TIM_SelectOutputTrigger
+                         0x800'174b    0x16  Code  Gb  stm32f30x_tim.o [10]
+TIM_SetCounter           0x800'16b1     0x4  Code  Gb  stm32f30x_tim.o [10]
+TIM_TimeBaseInit         0x800'160b    0x8e  Code  Gb  stm32f30x_tim.o [10]
+TIM_TimeBaseStructInit   0x800'1699    0x18  Code  Gb  stm32f30x_tim.o [10]
+UART4_IRQHandler         0x800'868d          Code  Wk  startup_stm32f30x.o [16]
+UART5_IRQHandler         0x800'8691          Code  Wk  startup_stm32f30x.o [16]
+USART1_IRQHandler        0x800'8661          Code  Wk  startup_stm32f30x.o [16]
+USART2_IRQHandler        0x800'478f   0x2e2  Code  Gb  STM32F0usart.o [5]
+USART3_IRQHandler        0x800'8665          Code  Wk  startup_stm32f30x.o [16]
+USART_AddressDetectionConfig
+                         0x800'4e87    0x10  Code  Gb  stm32f30x_usart.o [10]
+USART_ClearFlag          0x800'4f4b     0x4  Code  Gb  stm32f30x_usart.o [10]
+USART_Cmd                0x800'4de1    0x1c  Code  Gb  stm32f30x_usart.o [10]
+USART_DECmd              0x800'4e97    0x1c  Code  Gb  stm32f30x_usart.o [10]
+USART_DMACmd             0x800'4ec5    0x18  Code  Gb  stm32f30x_usart.o [10]
+USART_GetITStatus        0x800'4f4f    0x58  Code  Gb  stm32f30x_usart.o [10]
+USART_ITConfig           0x800'4edd    0x56  Code  Gb  stm32f30x_usart.o [10]
+USART_Init               0x800'4ced    0xe0  Code  Gb  stm32f30x_usart.o [10]
+USART_MuteModeCmd        0x800'4e5b    0x1c  Code  Gb  stm32f30x_usart.o [10]
+USART_MuteModeWakeUpConfig
+                         0x800'4e77    0x10  Code  Gb  stm32f30x_usart.o [10]
+USART_OverSampling8Cmd   0x800'4dfd    0x1c  Code  Gb  stm32f30x_usart.o [10]
+USART_ReceiverTimeOutCmd
+                         0x800'4e19    0x1c  Code  Gb  stm32f30x_usart.o [10]
+USART_RequestCmd         0x800'4f33    0x18  Code  Gb  stm32f30x_usart.o [10]
+USART_SetAddress         0x800'4e45    0x16  Code  Gb  stm32f30x_usart.o [10]
+USART_SetDEAssertionTime
+                         0x800'4eb3    0x12  Code  Gb  stm32f30x_usart.o [10]
+USART_SetReceiverTimeOut
+                         0x800'4e35    0x10  Code  Gb  stm32f30x_usart.o [10]
+USBWakeUp_IRQHandler     0x800'8671          Code  Wk  startup_stm32f30x.o [16]
+USBWakeUp_RMP_IRQHandler
+                         0x800'86c1          Code  Wk  startup_stm32f30x.o [16]
+USB_HP_CAN1_TX_IRQHandler
+                         0x800'8621          Code  Wk  startup_stm32f30x.o [16]
+USB_HP_IRQHandler        0x800'86b9          Code  Wk  startup_stm32f30x.o [16]
+USB_LP_CAN1_RX0_IRQHandler
+                         0x800'8625          Code  Wk  startup_stm32f30x.o [16]
+USB_LP_IRQHandler        0x800'86bd          Code  Wk  startup_stm32f30x.o [16]
+UpdateIndicatorLights    0x800'1481    0x40  Code  Gb  STM32DAC8555Driver.o [5]
+UsageFault_Handler       0x800'85c9          Code  Wk  startup_stm32f30x.o [16]
+WWDG_IRQHandler          0x800'85dd          Code  Wk  startup_stm32f30x.o [16]
+ZeroChannelOutput        0x800'2d5b    0x36  Code  Gb  Iocontrol.o [9]
+_DoInit                  0x800'31a5    0x74  Code  Lc  SEGGER_RTT.o [8]
+_DoInit::_aInitStr       0x800'8534    0x14  Data  Lc  SEGGER_RTT.o [8]
+_GetAvailWriteSpace      0x800'3329    0x1a  Code  Lc  SEGGER_RTT.o [8]
+_PrintInt                0x800'2921    0xe0  Code  Lc  SEGGER_RTT_printf.o [8]
+_PrintUnsigned           0x800'2849    0xd2  Code  Lc  SEGGER_RTT_printf.o [8]
+_PrintUnsigned::_aV2C    0x800'8548    0x10  Data  Lc  SEGGER_RTT_printf.o [8]
+_SEGGER_RTT             0x2000'13bc    0xa8  Data  Gb  SEGGER_RTT.o [8]
+_StoreChar               0x800'2805    0x44  Code  Lc  SEGGER_RTT_printf.o [8]
+_WriteBlocking           0x800'3219    0x8c  Code  Lc  SEGGER_RTT.o [8]
+_WriteNoCheck            0x800'32a5    0x84  Code  Lc  SEGGER_RTT.o [8]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'5fff          Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0400          Data  Gb  <internal module>
+__aeabi_cdcmple          0x800'2651          Code  Gb  DblCmpLe.o [18]
+__aeabi_cdrcmple         0x800'261d          Code  Gb  DblCmpGe.o [18]
+__aeabi_d2iz             0x800'2685          Code  Gb  DblToS32.o [18]
+__aeabi_dadd             0x800'2221          Code  Gb  DblAddSub.o [18]
+__aeabi_ddiv             0x800'1fd9          Code  Gb  DblDiv.o [18]
+__aeabi_dmul             0x800'2471          Code  Gb  DblMul.o [18]
+__aeabi_i2d              0x800'1fb5          Code  Gb  S32ToDbl.o [18]
+__aeabi_ldiv0            0x800'3815          Code  Gb  I64DivZer.o [19]
+__aeabi_ldivmod          0x800'35a1          Code  Gb  I64DivMod.o [19]
+__aeabi_memcpy           0x800'34f9          Code  Gb  ABImemcpy.o [19]
+__aeabi_memcpy4          0x800'3519          Code  Gb  ABImemcpy.o [19]
+__aeabi_memcpy8          0x800'3519          Code  Gb  ABImemcpy.o [19]
+__aeabi_memset           0x800'279d          Code  Gb  ABImemset.o [19]
+__aeabi_uldivmod         0x800'35e5          Code  Gb  I64DivMod.o [19]
+__cmain                  0x800'84d5          Code  Gb  cmain.o [19]
+__exit                   0x800'8505    0x14  Code  Gb  exit.o [20]
+__iar_Memset             0x800'279d          Code  Gb  ABImemset.o [19]
+__iar_Memset_word        0x800'27a5          Code  Gb  ABImemset.o [19]
+__iar_data_init3         0x800'843d    0x28  Code  Gb  data_init.o [19]
+__iar_init_vfp           0x800'8489          Code  Gb  fpinit_M.o [18]
+__iar_packbits_init_single3
+                         0x800'1f7b    0x3a  Code  Gb  packbits_init_single.o [19]
+__iar_program_start      0x800'8519          Code  Gb  cstartup_M.o [19]
+__iar_zero_init3         0x800'8405    0x38  Code  Gb  zero_init3.o [19]
+__low_level_init         0x800'd401     0x4  Code  Gb  low_level_init.o [17]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f30x.o [16]
+_acDownBuffer           0x2000'15dc    0x10  Data  Lc  SEGGER_RTT.o [8]
+_acUpBuffer             0x2000'08e4   0x400  Data  Lc  SEGGER_RTT.o [8]
+_call_main               0x800'84e1          Code  Gb  cmain.o [19]
+_exit                    0x800'84f9          Code  Gb  cexit.o [19]
+arxEventHdls            0x2000'1660     0x4  Data  Lc  mbportevent.o [14]
+arxMBSDefaultHandlers    0x800'83ac    0x58  Data  Lc  mbs.o [7]
+aucCRCHi                 0x800'7f4c   0x100  Data  Lc  mbscrc.o [15]
+aucCRCLo                 0x800'804c   0x100  Data  Lc  mbscrc.o [15]
+bIsInitalized           0x2000'1673     0x1  Data  Lc  mbportserial.o [14]
+bIsInitalized           0x2000'1674     0x1  Data  Lc  mbs.o [7]
+bIsInitialized          0x2000'1672     0x1  Data  Lc  mbportevent.o [14]
+bIsInitialized          0x2000'1675     0x1  Data  Lc  mbsrtu.o [15]
+bMBPEventGet             0x800'6597    0x30  Code  Gb  mbportevent.o [14]
+bMBSIsHdlValid           0x800'5f29    0x22  Code  Gb  mbs.o [7]
+bMBSSerialRTUT35CB       0x800'6bc9    0x2e  Code  Lc  mbsrtu.o [15]
+bMBSSerialTransmitterEmptyAPIV2CB
+                         0x800'6959    0xc4  Code  Lc  mbsrtu.o [15]
+delay_us                 0x800'0f21    0x12  Code  Gb  STM32DAC8555Driver.o [5]
+eMBPEventCreate          0x800'64ed    0x86  Code  Gb  mbportevent.o [14]
+eMBPEventPost            0x800'6573    0x24  Code  Gb  mbportevent.o [14]
+eMBPSerialClose          0x800'6e25    0x46  Code  Gb  mbportserial.o [14]
+eMBPSerialInit           0x800'6c25   0x200  Code  Gb  mbportserial.o [14]
+eMBPSerialReceive        0x800'6f6f    0x9a  Code  Gb  mbportserial.o [14]
+eMBPSerialReceiveCB      0x800'7009    0x2c  Code  Lc  mbportserial.o [14]
+eMBPSerialRxEnable       0x800'6e9f    0x34  Code  Gb  mbportserial.o [14]
+eMBPSerialSend           0x800'6ed3    0x9c  Code  Gb  mbportserial.o [14]
+eMBPSerialTxEnable       0x800'6e6b    0x34  Code  Gb  mbportserial.o [14]
+eMBPTimerInit            0x800'703d     0xa  Code  Gb  mbporttimer.o [14]
+eMBSClose                0x800'60cd    0x2e  Code  Gb  mbs.o [7]
+eMBSFuncReadCoils        0x800'7a51    0xec  Code  Gb  mbsfunccoils.o [13]
+eMBSFuncReadDiscreteInputs
+                         0x800'814d    0xa4  Code  Gb  mbsfuncdisc.o [13]
+eMBSFuncReadFileRecord   0x800'7049   0x27c  Code  Gb  mbsfuncfiles.o [13]
+eMBSFuncReadHoldingRegister
+                         0x800'7485    0xae  Code  Gb  mbsfuncholding.o [13]
+eMBSFuncReadInputRegister
+                         0x800'8325    0x88  Code  Gb  mbsfuncinput.o [13]
+eMBSFuncReadWriteMultipleHoldingRegister
+                         0x800'760d    0xee  Code  Gb  mbsfuncholding.o [13]
+eMBSFuncWriteFileRecord
+                         0x800'72c5   0x1c0  Code  Gb  mbsfuncfiles.o [13]
+eMBSFuncWriteMultipleCoils
+                         0x800'7baf    0xb0  Code  Gb  mbsfunccoils.o [13]
+eMBSFuncWriteMultipleHoldingRegister
+                         0x800'7575    0x98  Code  Gb  mbsfuncholding.o [13]
+eMBSFuncWriteSingleCoil
+                         0x800'7b3d    0x72  Code  Gb  mbsfunccoils.o [13]
+eMBSFuncWriteSingleRegister
+                         0x800'7533    0x42  Code  Gb  mbsfuncholding.o [13]
+eMBSPoll                 0x800'61a3   0x1e4  Code  Gb  mbs.o [7]
+eMBSReadFileRecordCB     0x800'614f    0x2a  Code  Gb  mbs.o [7]
+eMBSRegisterCoilCB       0x800'6125    0x2a  Code  Gb  mbs.o [7]
+eMBSRegisterHoldingCB    0x800'60fb    0x2a  Code  Gb  mbs.o [7]
+eMBSReleaseHdl           0x800'604f    0x7e  Code  Lc  mbs.o [7]
+eMBSSerialInit           0x800'6395    0x48  Code  Gb  mbs.o [7]
+eMBSSerialInitExt        0x800'63dd    0x8a  Code  Gb  mbs.o [7]
+eMBSSerialRTUFrameClose
+                         0x800'6abd    0x20  Code  Lc  mbsrtu.o [15]
+eMBSSerialRTUFrameCloseInternal
+                         0x800'6add    0xe4  Code  Lc  mbsrtu.o [15]
+eMBSSerialRTUFrameReceive
+                         0x800'68e9    0x70  Code  Lc  mbsrtu.o [15]
+eMBSSerialRTUFrameSend   0x800'67d1   0x116  Code  Lc  mbsrtu.o [15]
+eMBSSerialRTUInit        0x800'661d   0x1b2  Code  Gb  mbsrtu.o [15]
+eMBSWriteFileRecordCB    0x800'6179    0x2a  Code  Gb  mbs.o [7]
+exit                     0x800'84f3     0x4  Code  Gb  exit.o [17]
+geInitState             0x2000'04e3     0x1  Data  Gb  main.o [1]
+gllaGainValue            0x800'da00    0x40  Data  Gb  MasterCommunication.o [9]
+gtaAODemarcate          0x2000'12fc    0xc0  Data  Gb  Iocontrol.o [9]
+gtaIndictor             0x2000'0410    0x6c  Data  Gb  Iocontrol.o [9]
+gucAoDataIsChanged      0x2000'166f     0x1  Data  Gb  Iocontrol.o [9]
+gucChannelCount         0x2000'166e     0x1  Data  Gb  Iocontrol.o [9]
+gucCurrentChannel       0x2000'1676     0x1  Data  Lc  STM32DAC8555Driver.o [5]
+gucDisConnectionFlag    0x2000'166d     0x1  Data  Gb  HModbusOptimize.o [9]
+gucDownServDataAnalogUpdateOK
+                        0x2000'04e0     0x1  Data  Gb  HModbusOptimize.o [9]
+gucIAPUpgradeRebuffer   0x2000'0000   0x100  Data  Gb  STM32F0IAPDriver.o [5]
+gucIAPUpgradeTxbuffer   0x2000'0100   0x100  Data  Gb  STM32F0IAPDriver.o [5]
+gucServDataFraPackageOK
+                        0x2000'04e1     0x1  Data  Gb  HModbusOptimize.o [9]
+gucStationNum           0x2000'04e2     0x1  Data  Gb  IoInit.o [6]
+gucUSART2DMARx          0x2000'0ff8   0x104  Data  Gb  STM32F0usart.o [5]
+gucUSART2DMATx          0x2000'11fc   0x100  Data  Gb  STM32F0usart.o [5]
+gucaIODeviceFile         0x800'c000  0x1000  Data  Gb  MasterCommunication.o [9]
+gucaIOPartDeviceInfo    0x2000'10fc   0x100  Data  Gb  MasterCommunication.o [9]
+gucaIOUpgradeInfo        0x800'ff00   0x100  Data  Gb  MasterCommunication.o [9]
+gucaIOVersionInfo        0x800'd000   0x400  Data  Gb  MasterCommunication.o [9]
+gucaIoWholeDeviceInfo   0x2000'04e4   0x400  Data  Gb  MasterCommunication.o [9]
+gucaServiceDataRespFrame
+                        0x2000'1638     0x8  Data  Gb  HModbusOptimize.o [9]
+gucaServiceDataRespFrameWarn
+                        0x2000'1640     0x8  Data  Gb  HModbusOptimize.o [9]
+gucaUpServiceDataRequFrame
+                        0x2000'1648     0x8  Data  Gb  HModbusOptimize.o [9]
+gucaUpServiceDataRespFrameMainLoop
+                        0x2000'15fc     0xc  Data  Gb  HModbusOptimize.o [9]
+gucaUpServiceDataRespFrameUSART
+                        0x2000'1608     0xc  Data  Gb  HModbusOptimize.o [9]
+gucaWarnData            0x2000'1678     0x1  Data  Gb  warn.o [3]
+gulMainCstackPointer    0x2000'1658     0x4  Data  Gb  common.o [3]
+gusIAPUpgradeTxbuffer   0x2000'0200   0x200  Data  Gb  STM32F0IAPDriver.o [5]
+gusUSART2DMATx          0x2000'0ce4   0x200  Data  Gb  STM32F0usart.o [5]
+gusaAnalogData          0x2000'151c    0x20  Data  Gb  Iocontrol.o [9]
+gusaAnalogDataMainLoop  0x2000'153c    0x20  Data  Gb  Iocontrol.o [9]
+gusaDiagnoseData        0x2000'165c     0x4  Data  Gb  diagnose.o [3]
+gusaServiceDataRespFrame
+                        0x2000'15a4    0x14  Data  Gb  HModbusOptimize.o [9]
+gusaServiceDataRespFrameWarn
+                        0x2000'15b8    0x14  Data  Gb  HModbusOptimize.o [9]
+gusaUpServiceDataRespFrameMainLoop
+                        0x2000'157c    0x14  Data  Gb  HModbusOptimize.o [9]
+gusaUpServiceDataRespFrameUSART
+                        0x2000'1590    0x14  Data  Gb  HModbusOptimize.o [9]
+gusaVariousStartAddr    0x2000'155c    0x20  Data  Gb  MbCommunication.o [4]
+indicatorFlashState     0x2000'1650     0x8  Data  Gb  Iocontrol.o [9]
+main                     0x800'81f1    0xa0  Code  Gb  main.o [1]
+memcmp                   0x800'41bd          Code  Gb  memcmp.o [19]
+pfnIntCbDat             0x2000'162c     0xc  Data  Lc  STM32F0usart.o [5]
+pxMBSGetNewHdl           0x800'5f8d    0xc2  Code  Lc  mbs.o [7]
+swapEndian               0x800'4b19    0x2e  Code  Gb  STM32F0usart.o [5]
+taIoDeviceContentInfo   0x2000'1464    0x48  Data  Gb  MasterCommunication.o [9]
+ucADCStart              0x2000'166c     0x1  Data  Gb  diagnose.o [3]
+ucIAPWatchdogCount      0x2000'0400     0x4  Data  Gb  STM32F0IAPDriver.o [5]
+ucIsDisconnectCheckTimerStart
+                        0x2000'1671     0x1  Data  Gb  MbCommunication.o [4]
+ucIsReceivedData        0x2000'1677     0x1  Data  Gb  STM32F0usart.o [5]
+uiNextCodePackageSN     0x2000'0404     0x4  Data  Gb  STM32F0IAPDriver.o [5]
+uiNextDeviceInfoPackageSN
+                        0x2000'0408     0x4  Data  Gb  STM32F0IAPDriver.o [5]
+uiNextVersionPackageSN  0x2000'040c     0x4  Data  Gb  STM32F0IAPDriver.o [5]
+usADC1TemConvertedValue
+                        0x2000'1668     0x2  Data  Gb  diagnose.o [3]
+usADC1VolConvertedValue
+                        0x2000'166a     0x2  Data  Gb  diagnose.o [3]
+usIapMBSCRC16            0x800'e443    0x4e  Code  Lc  STM32F0IAPDriver.o [5]
+usIapUtlCRC16GetTab      0x800'e401    0x42  Code  Lc  STM32F0IAPDriver.o [5]
+usMBSCRC16               0x800'5729    0x48  Code  Gb  mbscrc.o [15]
+vMBPEventDelete          0x800'65c7    0x1c  Code  Gb  mbportevent.o [14]
+vMBPSerialReceiverAPIV2CB
+                         0x800'6a1d    0xa0  Code  Lc  mbsrtu.o [15]
+vMBPTimerClose           0x800'7047     0x2  Code  Gb  mbporttimer.o [14]
+vMBSResetHdl             0x800'5f4b    0x42  Code  Lc  mbs.o [7]
+xMBSInternalHdl         0x2000'14ac    0x40  Data  Lc  mbs.o [7]
+xMBSRTUFrameHdl         0x2000'0ee4   0x114  Data  Lc  mbsrtu.o [15]
+xSerialHdls             0x2000'14ec    0x30  Data  Lc  mbportserial.o [14]
+
+
+[1] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\APP_7154173064415748325.dir
+[2] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\CM0_11606972002192940675.dir
+[3] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Common_7126434742054839981.dir
+[4] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Communication_16874736313679474480.dir
+[5] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Drivers_14040216300654056098.dir
+[6] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Init_3131268604989098105.dir
+[7] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\MBslave_4893024693769728977.dir
+[8] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\RTT_15878225897604209808.dir
+[9] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\ServiceHandling_2804549100268208288.dir
+[10] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\StdPeriph_15013814132200396586.dir
+[11] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\Syscalls_3904317922390267577.dir
+[12] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\common_17675366809245851706.dir
+[13] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\functions_8037697659411739073.dir
+[14] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\port_14968599683753904672.dir
+[15] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\rtu_3604552621576057552.dir
+[16] = C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Obj\startup_11811877783318422109.dir
+[17] = dl7M_tln.a
+[18] = m7M_tls.a
+[19] = rt7M_tl.a
+[20] = shb_l.a
+
+  36'494 bytes of readonly  code memory
+   6'436 bytes of readonly  data memory
+   5'738 bytes of readwrite data memory (+ 1'040 absolute)
+
+Errors: none
+Warnings: none
