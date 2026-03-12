@@ -1,0 +1,12 @@
+mbutils.pbi: \
+  D:\workspace\projects\test\VX4204\Protocol\MBslave\common\mbutils.c \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Protocol\MBslave\port\mbport.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  D:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Protocol\MBslave\include\common/mbtypes.h \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Protocol\MBslave\include\common/mbframe.h \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Protocol\MBslave\include\common/mbutils.h

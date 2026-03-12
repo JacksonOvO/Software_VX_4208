@@ -1,0 +1,5 @@
+STM32F0IAPDriver.pbi: \
+  D:\workspace\projects\test\VX4204\Drivers\src\STM32F0IAPDriver.c \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Drivers\opt\STM32F0IAPDriveropt.h \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Drivers\inc\STM32F0IAPDriver.h \
+  D:\workspace\projects\test\VX4204\PRJ\IAR\..\..\Drivers\opt\STM32F0usartopt.h

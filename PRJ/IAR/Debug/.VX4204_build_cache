@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\0606\vx4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\0606\vx4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G - 1118\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G - 1118\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\05-30\vx4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\05-30\vx4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\workspace\projects\VX Series0\poll time update\VX4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>D:\workspace\projects\VX Series0\poll time update\VX4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\workspace\projects\test\VX4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>D:\workspace\projects\test\VX4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\vx4204G\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\VX4204_Development_project\ReferenceProgram\vx4204G\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G - 1104\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4204G - 1104\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\workspace\projects\VX Series0\VX4204\PRJ\IAR\Debug\Exe\VX4008.out</Path>
+            <Output>
+                <Path>D:\workspace\projects\VX Series0\VX4204\PRJ\IAR\Debug\List\VX4008.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
