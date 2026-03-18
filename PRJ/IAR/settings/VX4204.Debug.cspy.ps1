@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\settings\VX4204.Debug.general.xcl" --backend -f "C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\settings\VX4204.Debug.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "C:\Users\14010\Desktop\work\Software_VX_4208-master\PRJ\IAR\settings\VX4204.Debug.general.xcl" --backend -f "C:\Users\14010\Desktop\work\Software_VX_4208-master\PRJ\IAR\settings\VX4204.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\settings\VX4204.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\settings\VX4204.Debug.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "C:\Users\14010\Desktop\work\Software_VX_4208-master\PRJ\IAR\settings\VX4204.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\14010\Desktop\work\Software_VX_4208-master\PRJ\IAR\settings\VX4204.Debug.driver.xcl" 
 }

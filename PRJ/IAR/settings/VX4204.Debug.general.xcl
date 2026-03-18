@@ -1,12 +1,12 @@
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armPROC.dll" 
+"D:\IAR Systems\Embedded Workbench 9.2\arm\bin\armPROC.dll" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armJLINK.dll" 
+"D:\IAR Systems\Embedded Workbench 9.2\arm\bin\armJLINK.dll" 
 
-"C:\Users\ZXK\Desktop\work\VX4204_Development_project\ReferenceProgram\vx4208\PRJ\IAR\Debug\Exe\VX4008.out" 
+"C:\Users\14010\Desktop\work\Software_VX_4208-master\PRJ\IAR\Debug\Exe\VX4008.out" 
 
---plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armbat.dll" 
+--plugin="D:\IAR Systems\Embedded Workbench 9.2\arm\bin\armbat.dll" 
 
---device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32F3xx.dmac" 
+--device_macro="D:\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32F3xx.dmac" 
 
 
 
